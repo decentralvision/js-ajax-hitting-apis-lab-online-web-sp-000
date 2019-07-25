@@ -1,5 +1,5 @@
 // your code here
-rootURL = 'https://api.github.com'
+const rootURL = 'https://api.github.com'
 function getRepositories() {
   const name = document.getElementById('username').value
   const uri = rootURL + '/users/' + name + '/repos'
